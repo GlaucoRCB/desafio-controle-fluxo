@@ -19,6 +19,8 @@ public class Contador {
 			//imprimir a mensagem: O segundo parâmetro deve ser maior que o primeiro
             System.out.println("O segundo parametro deve ser maior que o primeiro");
 		}
+
+        scanner.close();
 		
 	}
 
@@ -33,5 +35,5 @@ public class Contador {
         for(contagem=parametroUm; contagem <= parametroDois; contagem++){
             System.out.println("Contando apartir do 1º parametro: " +contagem);
         }
-	}
+    }
 }
